@@ -1,6 +1,10 @@
 Morine Awino's Portfolio Website
+
 Project Overview
-This is a personal portfolio website built as the final assignment for the PLP Software Development scholarship program. The website serves as a digital showcase of my professional journey, featured projects, and personal passions. It is designed to be responsive, engaging, and easy to navigate, providing a comprehensive overview of my skills and experiences.
+
+This is a personal portfolio website built as the final assignment for the PLP Software Development scholarship program. 
+
+The website serves as a digital showcase of my professional journey, featured projects, and personal passions. It is designed to be responsive, engaging, and easy to navigate, providing a comprehensive overview of my skills and experiences.
 
 Key Features
 Responsive Design: The layout adapts seamlessly to various screen sizes, from mobile phones to desktops, ensuring an optimal viewing experience for all users.
@@ -41,4 +45,5 @@ Live Deployment
 The website has been deployed and is accessible at the following URL:
 
  https://misso-254.github.io/missO-final-project-and-deployment/
+
  
