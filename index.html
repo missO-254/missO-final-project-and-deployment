@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morine Awino | Portfolio</title>
+  <!-- Load Tailwind CSS from CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom CSS for a clean, cohesive design */
+    body {
+      font-family: 'Inter', sans-serif;
+      scroll-behavior: smooth;
+      background-color: #0d1217; /* Dark background */
+      color: #e2e8f0;
+    }
+    ::selection {
+      background-color: #e2e8f0;
+      color: #0d1217;
+    }
+    /* Smooth transition for hover effects */
+    .transition-colors {
+      transition-property: background-color, border-color, color, fill, stroke;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transition-duration: 150ms;
+    }
+  </style>
+</head>
+<body class="antialiased">
+
+  <!-- ===== Hero Section ===== -->
+  <header id="hero" class="relative overflow-hidden pt-16 pb-24 md:pt-24 md:pb-32 bg-slate-950">
+    <div class="container mx-auto px-6 max-w-4xl text-center">
+      <div class="flex flex-col items-center justify-center">
+        <!-- Profile photo with rounded corners and shadow -->
+        <img src="Profilephoto.jpeg" alt="Profile photo of Morine Awino" class="w-40 h-40 rounded-full object-cover mb-6 shadow-lg transform transition-transform duration-300 hover:scale-105">
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-white leading-tight mb-2">
+          Hello, I'm <span class="text-teal-400">Morine Awino</span>
+        </h1>
+        <p class="text-lg text-slate-400 mb-6 max-w-lg">
+          ✨ Passionate about technology, creativity, and continuous growth ✨
+        </p>
+        <div class="flex flex-col sm:flex-row items-center sm:space-x-4 space-y-2 sm:space-y-0 text-slate-300">
+          <a href="tel:0714561770" class="flex items-center space-x-2 text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-teal-400" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.774a11.058 11.058 0 007.862 7.862l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.388 18 3 13.612 3 8V6a1 1 0 011-1h2z" clip-rule="evenodd" />
+            </svg>
+            <span>0714561770</span>
+          </a>
+          <a href="mailto:oloomorine1@gmail.com" class="flex items-center space-x-2 text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-teal-400" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+            </svg>
+            <span>oloomorine1@gmail.com</span>
+          </a>
+          <a href="https://github.com/missO-254" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-2 text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-teal-400" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.809 1.305 3.492.997.107-.775.418-1.305.762-1.605-2.665-.304-5.467-1.334-5.467-5.931 0-1.311.465-2.381 1.236-3.221-.124-.303-.535-1.524.118-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.004-.404 1.021.005 2.046.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.772.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.682.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+            <span>missO-254</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="py-16 md:py-24">
+    <div class="flex flex-col space-y-16 md:space-y-24">
+      <!-- ===== About Section ===== -->
+      <section id="about" class="container mx-auto px-6 max-w-4xl">
+        <div class="bg-slate-800 rounded-2xl p-8 md:p-12 shadow-lg">
+          <h2 class="text-3xl font-bold mb-4 text-teal-400">About Me</h2>
+          <p class="text-lg text-slate-300 leading-relaxed">
+            I’m a curious soul with a love for learning and expression. Outside of my career journey, I enjoy <strong>photography</strong>, capturing unique perspectives wherever I go, and I’m a proud <strong>book lover</strong> who finds joy curled up with a novel, listening to calming music, or being immersed in nature. 🌿📸📚
+          </p>
+        </div>
+      </section>
+
+      <!-- ===== Career Journey ===== -->
+      <section id="journey" class="container mx-auto px-6 max-w-4xl">
+        <div class="bg-slate-800 rounded-2xl p-8 md:p-12 shadow-lg">
+          <h2 class="text-3xl font-bold mb-4 text-teal-400">My Career Journey</h2>
+          <p class="text-lg text-slate-300 leading-relaxed">
+            My story is proof that determination shapes destiny. My journey began as an office cleaner, where I was captivated by the teams engrossed in their work, eager to witness the magic they were building on their laptops. Driven by this curiosity, I saved tirelessly and put myself through college against all odds. My persistence paid off when I secured an internship at that very organization, which opened the door to new opportunities. Over time, I've progressed through different roles, constantly learning and evolving. This journey has been truly fulfilling, and I believe the best is yet to come.
+          </p>
+        </div>
+      </section>
+      
+    <!-- ===== Lumina Project Section ===== -->
+      <section id="lumina" class="container mx-auto px-6 max-w-6xl">
+        <h2 class="text-3xl font-bold mb-4 text-teal-400 text-center">Featured Project: Lumina</h2>
+        <p class="text-center text-slate-300 mb-8">A look at a project I'm currently working on. Built with creativity and passion as part of my PLP Software Development scholarship program course</p>
+        <div class="bg-slate-800 rounded-2xl p-4 md:p-8 shadow-lg aspect-video">
+          <!-- The iframe is where your Canva project will be embedded -->
+          <!-- 
+            The 'src' value below is the "Embed" URL from your Canva project.
+            It must be a view-only link to work correctly.
+          -->
+          <iframe 
+            src="https://www.canva.com/design/DAGx_znzdcs/iMpsxec2HHRHd0JkkB3Ywg/view?embed" 
+            class="w-full h-full border-none rounded-xl"
+            allowfullscreen="true"
+            title="Lumina Project Presentation">
+          </iframe>
+        </div>
+      </section>
+
+      <!-- ===== Gallery Section ===== -->
+      <section id="gallery" class="container mx-auto px-6 max-w-6xl">
+        <h2 class="text-3xl font-bold mb-8 text-center text-teal-400">Moments & Passions</h2>
+
+        <!-- Networking Events sub-section -->
+        <div class="mb-12">
+          <h3 class="text-2xl font-semibold text-white mb-4">Networking Events</h3>
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            <img src="Networkingpic1.jpeg" alt="Networking event photo 1" class="w-full aspect-video rounded-xl object-cover shadow-md transform transition-transform duration-300 hover:scale-105">
+            <img src="Networkingpic2.jpeg" alt="Networking event photo 2" class="w-full aspect-video rounded-xl object-cover shadow-md transform transition-transform duration-300 hover:scale-105">
+            <img src="Networkingpic3.jpeg" alt="Networking event photo 3" class="w-full aspect-video rounded-xl object-cover shadow-md transform transition-transform duration-300 hover:scale-105">
+            <img src="Networkingpic4.jpeg" alt="Networking event photo 4" class="w-full aspect-video rounded-xl object-cover shadow-md transform transition-transform duration-300 hover:scale-105">
+          </div>
+        </div>
+
+        <!-- Moments in Nature sub-section -->
+        <div class="mb-12">
+          <h3 class="text-2xl font-semibold text-white mb-4">Moments in Nature</h3>
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            <img src="outdoorm1.jpeg" alt="Outdoor photo 1" class="w-full aspect-video rounded-xl object-cover shadow-md transform transition-transform duration-300 hover:scale-105">
+            <img src="outdoorsunset.jpeg" alt="Outdoor sunset" class="w-full aspect-video rounded-xl object-cover shadow-md transform transition-transform duration-300 hover:scale-105">
+            <img src="outdoor2.jpeg" alt="Outdoor photo 2" class="w-full aspect-video rounded-xl object-cover shadow-md transform transition-transform duration-300 hover:scale-105">
+            <img src="calmnature.jpeg" alt="Calm nature scenery" class="w-full aspect-video rounded-xl object-cover shadow-md transform transition-transform duration-300 hover:scale-105">
+          </div>
+        </div>
+      </section>
+      
+      <!-- ===== Favorite Reads Section ===== -->
+      <section id="favorite-reads" class="container mx-auto px-6 max-w-6xl">
+        <h2 class="text-3xl font-bold mb-8 text-center text-teal-400">Favorite Reads</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <img src="myfavoritebook.png" alt="Favorite book 1" class="w-full aspect-video rounded-xl object-cover shadow-md transform transition-transform duration-300 hover:scale-105">
+          <img src="favoritebook2.jpeg" alt="Favorite book 2" class="w-full aspect-video rounded-xl object-cover shadow-md transform transition-transform duration-300 hover:scale-105">
+        </div>
+      </section>
+
+      <!-- ===== Contact Section ===== -->
+      <section id="contact" class="container mx-auto px-6 max-w-4xl text-center">
+        <div class="bg-slate-800 rounded-2xl p-8 md:p-12 shadow-lg">
+          <h2 class="text-3xl font-bold mb-4 text-teal-400">Let's Connect</h2>
+          <p class="text-lg text-slate-300 mb-6">I'd love to connect with you. ✨</p>
+          <div class="flex flex-col sm:flex-row justify-center items-center sm:space-x-8 space-y-4 sm:space-y-0">
+            <p>
+              <a href="mailto:oloomorine1@gmail.com" class="hover:text-teal-400 transition-colors">oloomorine1@gmail.com</a>
+            </p>
+            <p>
+              <a href="tel:0714561770" class="hover:text-teal-400 transition-colors">0714561770</a>
+            </p>
+            <p>
+              <a href="https://github.com/missO-254" target="_blank" rel="noopener noreferrer" class="hover:text-teal-400 transition-colors">GitHub: missO-254</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="mt-16 py-8 text-center text-sm text-slate-500">
+    <p>© 2025 Morine Awino | Designed with passion.</p>
+  </footer>
+  
+  <script>
+    // This file is currently empty, but it's ready for any JavaScript
+    // you might want to add for interactivity, like a contact form,
+    // animations, or other dynamic features.
+  </script>
+</body>
+</html>
+
+
