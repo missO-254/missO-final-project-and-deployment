@@ -40,5 +40,6 @@ The project is organized to be clean, maintainable, and scalable, following best
 Live Deployment
 The website has been deployed and is accessible at the following URL:
 
- https://misso-254.github.io/missO-final-project-and-deployment/
+ https://miss-o-final-project-and-deployment.vercel.app/
+
  
